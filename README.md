@@ -21,3 +21,14 @@ To run the algorithms, navigate to the corresponding directory and run the file.
 ```
 python3 algorithm.py
 ```
+
+# Algorithms
+
+## Negative of Image
+
+Negative of an image is a total inversion of original image calculated by simply subtracting each pixel value of an image from the maximum pixel value. For grayscale images, only one band calculation is necessary while for color images, three different bands "R", "G" and "B" needs to be separately negated.
+
+Go to the 'negative_grayscale' or 'negative_color' directory and run:
+```
+python3 negative_grayscale.py OR python3 negative_color.py
+```

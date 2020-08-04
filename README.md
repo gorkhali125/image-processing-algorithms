@@ -32,3 +32,12 @@ Go to the 'negative_grayscale' or 'negative_color' directory and run:
 ```
 python3 negative_grayscale.py OR python3 negative_color.py
 ```
+
+## Bit Plane Slicing
+
+Every pixel of an image has certain gray level represented in bits. For 8-bit image, 0 is represented by 00000000 and 255 by 11111111. The bit in the leftmost side is referred as the MSB (most significant bit) and the one in the rightmost side is referred as the LSB (least significant bit). MSB carries most significant part of the image while LSB has least information of the image.
+
+Go to the 'bit_plane_slicing' directory and run:
+```
+python3 bit_plane_slicing.py
+```

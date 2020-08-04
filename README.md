@@ -41,3 +41,13 @@ Go to the 'bit_plane_slicing' directory and run:
 ```
 python3 bit_plane_slicing.py
 ```
+
+## Contrast Stretching 
+
+Contrast Stretching also known as Normalization is a method to correct the contrast of an image by stretching the range of contrast values in that image. An image might have gray levels accumulated at some ranges between 0-255, suppose say 40-150 and thus the image doesn't have all the dynamic ranges needed to look sharp. Contrast Stretching aims to stretch those gray level to the whole range 0-255 and the image will look much better.
+
+Go to the 'contrast_stretching' directory and run:
+```
+python3 contrast_stretching.py
+```
+To check another image, comment line 45 and uncomment line 46 of the file contrast_stretching.py

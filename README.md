@@ -51,3 +51,25 @@ Go to the 'contrast_stretching' directory and run:
 python3 contrast_stretching.py
 ```
 To check another image, comment line 45 and uncomment line 46 of the file contrast_stretching.py
+
+## Masking
+
+Masking is a method to create a small mask (patch of image, say 3*3 matrix as a patch) and moving that patch throughout the image to modify the whole image. It is an image enhancement technique and this is the main process underneath a lot of image processing methods including blurring, sharpening, edge detection etc.
+
+### Blurring
+
+Blurring is a type of masking and is used to make an image smooth in which edges are not observed. For blurring, a low pass filter is used since it allows the low frequency to allow and stop high frequency.
+
+Go to the'blurring_masking' directory and run:
+```
+python3 blurring_masking.py
+```
+
+### Sharpening
+
+Sharpening is another type of masking which is used to enhance any image such that edges are highlighted and fine details of image is seen.
+
+Go to the'sharpening_masking' directory and run:
+```
+python3 sharpening_masking.py
+```

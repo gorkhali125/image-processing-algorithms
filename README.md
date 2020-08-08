@@ -82,3 +82,12 @@ Go to the 'power_law' directory and run it. Try with different gamma values as i
 ```
 python3 power_law.py
 ```
+
+## Spatial Resolution Stretching
+
+Spatial resolution stretching is an operation performed on an image to either increase it's resolution or decrease it. Once decreased, the same image cannot be converted back to the original by increasing the same image.
+
+Go to the 'spatial_resolution_stretching' directory and run it. Change the values passed to 'decrease_by' and 'increase_by' functions for more level of stretching.
+```
+python3 spatial_resolution_stretching.py
+```

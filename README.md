@@ -73,3 +73,12 @@ Go to the 'sharpening_masking' directory and run it. To change the filter, chang
 ```
 python3 sharpening_masking.py
 ```
+
+## Power Law (Gamma) Transformation
+
+Power law also known as Gamma transformation is used for contrast manipulation and gamma correction for different display devices. These are performed directly on the image pixels and thus it is a spatial domain operation.
+
+Go to the 'power_law' directory and run it. Try with different gamma values as indicated in the code. Also try both the images with their separate gamma values.
+```
+python3 power_law.py
+```
